@@ -16,37 +16,51 @@ model = "openai/gpt-oss-120b"
 
 
 job_description="""
-Description
-Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide?
+Full Stack + AI Developer Hiring Drive | Batch 2027
+Greetings from the Placement Cell!
 
-At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands.
+We are pleased to inform you that a Full Stack + AI Developer Hiring Drive is being conducted for the 2027 batch. Eligible students interested in pursuing a career in full-stack development and artificial intelligence are invited to register for this opportunity.
 
-Our Software Development Engineers (SDEs) use modern technology to solve complex problems while seeing their work's impact first-hand. The challenges SDEs solve at Amazon are meaningful and influence millions of customers, sellers, and products globally. We seek individuals passionate about creating new products, features, and services while managing ambiguity in an environment where development cycles are measured in weeks, not years.
+1. Hiring Details
+Role: Full Stack + AI Developer
 
-At Amazon, we believe in ownership at every level. As an SDE-I, you'll own the entire lifecycle of your code - from design through deployment and ongoing operations. This ownership mindset, combined with our commitment to operational excellence, ensures we deliver the highest quality solutions for our customers.
+Eligible Batch: 2027
 
-We're looking for curious minds who think big and want to define tomorrow's technology. At Amazon, you'll grow into the high-impact engineer you know you can be, supported by a culture of learning and mentorship. Every day brings exciting new challenges and opportunities for personal growth.
-Key job responsibilities
-• Collaborate and communicate effectively with experienced cross-disciplinary Amazonians to design, build, and operate innovative products and services that delight our customers, while participating in technical discussions to drive solutions forward.
-• Design and develop scalable solutions using cloud-native architectures and microservices in a large distributed computing environment.
-• Participate in code reviews and contribute to technical documentation.
-• Build and maintain resilient distributed systems that are scalable, fault-tolerant, and cost-effective.
-• Leverage and contribute to the development of GenAI and AI-powered tools to enhance development productivity while staying current with emerging technologies.
-• Write clean, maintainable code following best practices and design patterns.
-• Work in an agile environment practicing CI/CD principles while participating in operational responsibilities including on-call duties.
-• Demonstrate operational excellence through monitoring, troubleshooting, and resolving production issues.
-Basic Qualifications
-- Experience with at least one general-purpose programming language such as Java, Python, C++, C#, Go, Rust, or TypeScript
-- Experience with data structure implementation, basic algorithm development, and/or object-oriented design principles
-- Currently has, or is in the process of obtaining a bachelor’s degree in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields
-- Must be 18 years of age of older
-Preferred Qualifications
-- Experience from previous technical internship(s) or demonstrated project experience
-- Experience with one or more of the following: AI tools for development productivity, Cloud platforms (preferably AWS), Database systems (SQL and NoSQL), Contributing to open-source projects, Version control systems, Debugging and troubleshooting complex systems
-- Demonstrated ability to learn and adapt to new technologies quickly
-- Basic understanding of software development lifecycle (SDLC)
-- Strong problem-solving and analytical skills
-- Excellent written and verbal communication skills
+Eligible Courses: B.Tech, MCA & M.Tech
+
+Joining Location: Jaipur, Rajasthan
+
+Drive Date: To be announced shortly after completion of registrations.
+
+2. Compensation Structure
+Employment Stage	Duration	Compensation
+Internship	4 Months	10,000 per month
+Trainee	4 Months	18,000 per month
+Full-Time Employment	After successful completion	7 LPA
+Full-Time CTC Breakup:
+
+Fixed Compensation: 6 LPA
+
+Variable Compensation: 1 LPA
+
+3. Service Agreement
+A 24-month service agreement will be applicable.
+
+The agreement period will include both the internship (4 months) and trainee (4 months) phases.
+
+4. Registration Details (All interested students are required to fill out this form first and then apply on Superset.
+Registration Form: [FORM LINK)
+
+Last Date to Register: 28 November 2026
+
+Important Instructions
+Interested and eligible students are required to complete their registration before the deadline.
+
+Students are advised to review the attached Job Description (JD) carefully before applying.
+
+The recruitment drive schedule and further selection process details will be communicated after the registration process.
+
+Interested students are advised to complete their registration within the stipulated deadline.
 """
 class JobD(BaseModel):
     role: str
