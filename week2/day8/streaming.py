@@ -6,11 +6,6 @@ import operator
 from dotenv import load_dotenv
 from groq import Groq
 
-
-# --------------------------------
-# 1. ENVIRONMENT SETUP
-# --------------------------------
-
 load_dotenv()
 
 api_key = os.getenv("GROQ_API_KEY")
